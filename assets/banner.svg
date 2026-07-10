@@ -1,0 +1,41 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#111827;#1d4ed8;#7c3aed;#0f172a" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#1d4ed8">
+        <animate attributeName="stop-color" values="#1d4ed8;#2563eb;#8b5cf6;#1d4ed8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7c3aed">
+        <animate attributeName="stop-color" values="#7c3aed;#0f172a;#38bdf8;#7c3aed" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)" />
+
+  <circle cx="1040" cy="90" r="120" fill="#38bdf8" opacity="0.16">
+    <animate attributeName="r" values="110;140;110" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="180" cy="240" r="90" fill="#a78bfa" opacity="0.16">
+    <animate attributeName="r" values="80;115;80" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+  <rect x="72" y="70" width="360" height="180" rx="24" fill="#ffffff" opacity="0.08" />
+  <rect x="92" y="90" width="320" height="12" rx="6" fill="#ffffff" opacity="0.35">
+    <animate attributeName="width" values="320;280;320" dur="4s" repeatCount="indefinite" />
+  </rect>
+  <rect x="92" y="122" width="260" height="12" rx="6" fill="#ffffff" opacity="0.2" />
+  <rect x="92" y="154" width="220" height="12" rx="6" fill="#ffffff" opacity="0.16" />
+
+  <text x="92" y="232" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" filter="url(#glow)">Hi, I’m Sanjana</text>
+  <text x="92" y="270" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24">Creative developer • building cool things • always learning</text>
+</svg>

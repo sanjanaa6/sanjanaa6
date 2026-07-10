@@ -1,28 +1,32 @@
-# sanjanaa6
+# Hi, I'm Sanjana 👋
 
-This repository is set up to power a GitHub profile README and automated profile visuals.
+<img src="assets/banner.svg" alt="Animated profile banner" width="100%" />
 
-## Included workflows
-- Snake contribution graph generation
-- Profile metrics generation
-- Optional quote / WakaTime / Spotify widgets
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Developer+%7C+Builder+%7C+Lifelong+Learner;Creating+cool+things+with+code;Always+exploring+new+ideas" alt="Typing SVG" />
+</p>
 
-## Quick setup
-1. Rename this repository to your GitHub username if needed.
-2. Enable GitHub Actions for the repository.
-3. Update the username in the workflow files.
-4. Commit and push to the main branch.
+## 🚀 About me
+I love turning ideas into polished digital experiences. I enjoy coding, learning new tools, and building projects that feel modern and interactive.
 
-## Profile preview
-![Snake contribution graph](output/github-contribution-grid-snake.svg)
+## 🛠️ Tech stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-## Files
-- .github/workflows/snake.yml
-- .github/workflows/metrics.yml
-- .github/workflows/quote.yml
-- .github/workflows/wakatime.yml
-- .github/workflows/spotify.yml
-- output/
+## 📊 GitHub activity
+<img src="output/github-contribution-grid-snake.svg" alt="Snake contribution graph" width="100%" />
 
-## Notes
-Replace the placeholder assets in the assets folder with your own images when you are ready.
+## ✨ Highlights
+- Clean and animated profile landing page
+- Automated GitHub contribution visuals
+- Easy to customize for your personal brand
+
+## 🔗 Connect
+- GitHub: [@sanjanaa6](https://github.com/sanjanaa6)
+- LinkedIn: coming soon
+
+---
+
+This profile page is powered by GitHub Actions and custom SVG assets.
