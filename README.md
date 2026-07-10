@@ -71,24 +71,7 @@
 <img src="output/quote.svg" alt="Quote of the day" width="100%" />
 </div>
 
-## 📈 Metrics
-
-<div align="center">
-<img src="output/metrics.svg" alt="GitHub metrics" width="100%" />
-</div>
-
-## ✨ Highlights
-
-| | |
-|---|---|
-| 🎨 | Clean, animated profile landing page |
-| 🐍 | Automated GitHub contribution snake + metrics |
-| 🎧 | Live Spotify "now playing" widget |
-| ⏱️ | Auto-updating WakaTime coding stats |
-| 💬 | Daily rotating quote of the day |
-| 🔧 | Easy to fork and rebrand for your own profile |
-
-## 🔗 Connect with me
+##  Connect with me
 
 <div align="center">
 
