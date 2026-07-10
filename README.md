@@ -56,15 +56,7 @@ I’m Sanjana S R, an MCA student who enjoys building smart, practical solutions
 - Comfortable working with APIs, ML tools, and modern frameworks
 - Enjoys collaborating, learning quickly, and improving code quality
 
-## 🔗 Connect with me
-
-- GitHub: https://github.com/sanjanaa6
-- LinkedIn: https://www.linkedin.com/in/sanjana-singh-645a7a35b
-- HackerRank: https://www.hackerrank.com/profile/sanjanaasingh_05
-- LeetCode: https://leetcode.com/u/sanjana258/
-- Email: sanjnaasingh.05@gmail.com
-
-## 📊 GitHub stats
+## � GitHub stats
 
 <div align="center">
 
@@ -95,6 +87,7 @@ I’m Sanjana S R, an MCA student who enjoys building smart, practical solutions
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjana-singh-645a7a35b)
 [![Hackerrank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/sanjanaasingh_05)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/sanjana258/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanjnaasingh.05@gmail.com)
 
 </div>
 
