@@ -67,27 +67,25 @@
 ## 🎧 Now playing
 
 <div align="center">
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false" alt="Spotify now playing" />
+<img src="output/spotify.svg" alt="Spotify now playing" width="100%" />
 </div>
 
 ## ⏱️ Coding activity
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<div align="center">
+<img src="output/wakatime.svg" alt="WakaTime coding activity" width="100%" />
+</div>
 
 ## 💬 Quote of the day
 
 <div align="center">
-
-<!-- QUOTE-START -->
-<!-- QUOTE-END -->
-
+<img src="output/quote.svg" alt="Quote of the day" width="100%" />
 </div>
 
 ## 📈 Metrics
 
 <div align="center">
-<img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
+<img src="output/metrics.svg" alt="GitHub metrics" width="100%" />
 </div>
 
 ## ✨ Highlights
