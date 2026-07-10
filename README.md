@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Banner"/>
+<img src="assets/banner.svg" width="100%" />
 
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=sanjanaa6&label=Profile+Views&color=58A6FF&style=for-the-badge"/>
 
 <img src="https://img.shields.io/github/followers/sanjanaa6?label=Followers&style=for-the-badge&color=A371F7"/>
-
-<img src="https://img.shields.io/badge/Open%20to-Internships-success?style=for-the-badge"/>
 
 </div>
 <br/>
