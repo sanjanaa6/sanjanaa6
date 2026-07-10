@@ -17,73 +17,38 @@
 
 <img align="right" width="320" src="https://raw.githubusercontent.com/HackerDom/hackerdom-web/master/img/octocat.gif" alt="coding gif" />
 
-I’m Sanjana S R, an MCA student with a strong interest in Python, SQL, full-stack development, and AI-powered applications. I enjoy building scalable web apps, backend services, and projects that solve real problems with clean code and thoughtful design.
+I’m Sanjana S R, an MCA student who enjoys building smart, practical solutions with Python, full-stack web technologies, and AI tools. I love turning ideas into interactive projects and learning by building.
 
-- 🔭 Currently exploring AI, backend development, and modern web technologies
-- 🌱 Always learning new tools, frameworks, and engineering practices
-- 💡 Interested in building practical products and polished user experiences
-- ⚡ Passionate about debugging, problem-solving, and continuous improvement
+- 🔭 Exploring AI, backend development, and modern web apps
+- 🌱 Constantly learning new tools, frameworks, and engineering concepts
+- 💡 Interested in creating useful products and polished digital experiences
+- ⚡ Enjoys problem solving, debugging, and working on meaningful projects
 
 <br clear="right"/>
 
-## 📞 Contact
+## 🛠️ Skills
 
-- Email: sanjnaasingh.05@gmail.com
-- Phone: +91 7338336512
+- Python, JavaScript, Java, PHP
+- HTML, CSS, React.js, Node.js, MERN Stack
+- FastAPI, REST APIs, backend development
+- MySQL, MongoDB, PostgreSQL
+- LangChain, OpenRouter, Scikit-learn, Hugging Face, OpenAI API
+- GitHub, Docker, VS Code, Jupyter Notebook, Google Colab
+
+## 📌 Highlights
+
+- Built AI-powered projects and web applications
+- Strong interest in backend development and database design
+- Comfortable working with APIs, ML tools, and modern frameworks
+- Enjoys collaborating, learning quickly, and improving code quality
+
+## 🔗 Connect with me
+
 - GitHub: https://github.com/sanjanaa6
 - LinkedIn: https://www.linkedin.com/in/sanjana-singh-645a7a35b
 - HackerRank: https://www.hackerrank.com/profile/sanjanaasingh_05
 - LeetCode: https://leetcode.com/u/sanjana258/
-
-## 🧠 Professional summary
-
-MCA student skilled in Python, SQL, and full-stack web development with experience in scalable applications and AI projects. Proficient in backend development, API design, and database management using MySQL, MongoDB, and PostgreSQL. Strong foundation in data structures, algorithms, and software engineering principles with hands-on project experience.
-
-## 🛠️ Skills
-
-- Programming Languages: Python, JavaScript, Java, PHP
-- Web Development: HTML, CSS, Node.js, React.js, MERN Stack
-- Backend & APIs: FastAPI, REST APIs, backend architecture
-- Databases: MySQL, MongoDB, PostgreSQL
-- AI / ML: LangChain, OpenRouter, Scikit-learn, Hugging Face, OpenAI API
-- Tools: GitHub, Docker, Jupyter Notebook, Google Colab, PyCharm, VS Code
-- Practices: Debugging, testing, technical communication, project ownership, async collaboration
-
-## 🎓 Education
-
-- Master of Computer Applications (MCA, GenAI) — Alliance University, Bangalore
-- Bachelor of Computer Applications (BCA) — Sahyadri Degree College, Karnataka
-- Intermediate (10+2) — Narayan PU College, Kolar, Karnataka
-- SSLC — New Jyothi Vidhya Samaste, Kolar, Karnataka
-
-## 💼 Projects
-
-- AI Hiring Assistant — MERN Stack, FastAPI, OpenAI API
-  - Built an AI-powered hiring platform for resume screening and candidate evaluation
-  - Developed FastAPI backend APIs and integrated OpenAI models for candidate-job matching
-  - Designed a responsive React.js interface with secure authentication and candidate management
-  - Live demo: https://aihiring.eval8.ai/
-
-- Bank Note Authentication System — Python, Machine Learning, Scikit-learn
-  - Built a model to classify genuine vs counterfeit banknotes
-  - Applied preprocessing, feature engineering, and model training using Python and Scikit-learn
-  - Implemented a real-time prediction workflow for authentication
-  - Repository: https://github.com/sanjanaa6/Bank_note_classify
-
-## 🧪 Internship
-
-- Software Development - AI Intern, Hysteresis
-  - Developed web application features using modern frameworks and best coding practices
-  - Collaborated on backend logic, APIs, testing, and debugging
-  - Contributed to scalable application development and maintainable code
-
-## 🏅 Certifications
-
-- MERN Stack - AI — Hysteresis Pvt Ltd
-- Advanced Data Structures and Algorithms — Packt
-- Python for Data Science & AI — Coursera (IBM / University Partner)
-- Applied Statistics for Data Analysis — Coursera
-- UI Design with Figma — Coursera
+- Email: sanjnaasingh.05@gmail.com
 
 ## 📊 GitHub stats
 
