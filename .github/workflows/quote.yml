@@ -1,0 +1,32 @@
+name: Update quote card
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create placeholder quote card
+        run: |
+          mkdir -p output
+          cat > output/quote.svg <<'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="120">
+            <rect width="100%" height="100%" fill="#0d1117"/>
+            <text x="20" y="50" fill="#58a6ff" font-family="Arial" font-size="20">Keep building.</text>
+            <text x="20" y="85" fill="#c9d1d9" font-family="Arial" font-size="16">Replace this with your own quote widget.</text>
+          </svg>
+          EOF
+
+      - name: Commit quote output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/quote.svg
+          git commit -m "Update quote card" || true
+          git push

@@ -1,0 +1,32 @@
+name: Update WakaTime stats
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  wakatime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create placeholder WakaTime card
+        run: |
+          mkdir -p output
+          cat > output/wakatime.svg <<'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="120">
+            <rect width="100%" height="100%" fill="#0d1117"/>
+            <text x="20" y="50" fill="#58a6ff" font-family="Arial" font-size="20">WakaTime integration</text>
+            <text x="20" y="85" fill="#c9d1d9" font-family="Arial" font-size="16">Add your WakaTime API key to enable this workflow.</text>
+          </svg>
+          EOF
+
+      - name: Commit WakaTime output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/wakatime.svg
+          git commit -m "Update WakaTime card" || true
+          git push
