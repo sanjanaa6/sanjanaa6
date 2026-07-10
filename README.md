@@ -13,6 +13,9 @@ This repository is set up to power a GitHub profile README and automated profile
 3. Update the username in the workflow files.
 4. Commit and push to the main branch.
 
+## Profile preview
+![Snake contribution graph](output/github-contribution-grid-snake.svg)
+
 ## Files
 - .github/workflows/snake.yml
 - .github/workflows/metrics.yml
