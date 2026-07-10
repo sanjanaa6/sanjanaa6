@@ -1,32 +1,29 @@
-name: Update Spotify status
+name: Update Spotify Now Playing
 
 on:
   schedule:
-    - cron: '0 10 * * *'
-  workflow_dispatch:
+    - cron: "*/10 * * * *"   # every 10 minutes
+  workflow_dispatch: {}
 
 jobs:
-  spotify:
+  update-spotify:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Create placeholder Spotify card
-        run: |
-          mkdir -p output
-          cat > output/spotify.svg <<'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="120">
-            <rect width="100%" height="100%" fill="#0d1117"/>
-            <text x="20" y="50" fill="#58a6ff" font-family="Arial" font-size="20">Spotify integration</text>
-            <text x="20" y="85" fill="#c9d1d9" font-family="Arial" font-size="16">Add your Spotify credentials to enable this workflow.</text>
-          </svg>
-          EOF
+      - name: Generate Spotify widget
+        uses: kittinan/spotify-github-profile@main
+        with:
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
 
-      - name: Commit Spotify output
+      - name: Commit changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/spotify.svg
-          git commit -m "Update Spotify card" || true
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update spotify now playing"
           git push
