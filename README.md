@@ -64,17 +64,6 @@
 <img src="output/github-contribution-grid-snake-dark.svg" alt="Snake contribution graph" width="100%" />
 </div>
 
-## 🎧 Now playing
-
-<div align="center">
-<img src="output/spotify.svg" alt="Spotify now playing" width="100%" />
-</div>
-
-## ⏱️ Coding activity
-
-<div align="center">
-<img src="output/wakatime.svg" alt="WakaTime coding activity" width="100%" />
-</div>
 
 ## 💬 Quote of the day
 
