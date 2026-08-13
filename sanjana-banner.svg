@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Sanjana - AI &amp; Full Stack Developer">
+<title>Sanjana — AI &amp; Full Stack Developer</title>
+<defs>
+<style type="text/css"><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Outfit:wght@600;800;900&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
+.title-font{font-family:'Outfit','Plus Jakarta Sans',sans-serif}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes popIn{0%{opacity:0;transform:translateY(14px) scale(.7)}70%{opacity:1;transform:translateY(-3px) scale(1.06)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes floaty2{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-12px) rotate(6deg)}}
+@keyframes heartBeat{0%,100%{transform:scale(1)}12%{transform:scale(1.25)}24%{transform:scale(1)}36%{transform:scale(1.18)}48%{transform:scale(1)}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+@keyframes rise{0%{transform:translateY(0);opacity:0}12%{opacity:.55}88%{opacity:.55}100%{transform:translateY(-46px);opacity:0}}
+.ltr{opacity:0;animation:popIn .5s cubic-bezier(.2,.8,.3,1.3) forwards;transform-box:fill-box;transform-origin:center bottom}
+.ii,.pill,.soc,.st,.cl{opacity:0}
+.pill{transition:transform .2s ease,filter .2s ease;transform-box:fill-box;transform-origin:center;cursor:pointer}
+.pill:hover{transform:scale(1.08);filter:brightness(1.35)}
+.cur{animation:blink 1s step-end infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:twinkle 2.6s ease-in-out infinite}
+.hb{transform-box:fill-box;transform-origin:center;animation:heartBeat 2.2s ease-in-out infinite}
+.fl{animation:floaty 5s ease-in-out infinite}
+.fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
+.rp{animation:rise linear infinite}
+.sep{stroke:#1e293b;stroke-width:1;opacity:.8}
+]]></style>
+
+<!-- Background Cyan/Blue/Emerald Theme -->
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0b1329"/><stop offset="55%" stop-color="#0f172a"/><stop offset="100%" stop-color="#090d16"/>
+</linearGradient>
+<linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#38bdf8;#34d399;#3b82f6;#38bdf8" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="55%"><animate attributeName="stop-color" values="#22d3ee;#818cf8;#34d399;#22d3ee" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#3b82f6;#38bdf8;#34d399;#3b82f6" dur="7s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#38bdf8" stop-opacity=".4"/>
+  <stop offset="50%" stop-color="#34d399" stop-opacity=".35"/>
+  <stop offset="100%" stop-color="#3b82f6" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="orbP"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".15"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbV"><stop offset="0%" stop-color="#34d399" stop-opacity=".18"/><stop offset="100%" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbB"><stop offset="0%" stop-color="#3b82f6" stop-opacity=".12"/><stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+<radialGradient id="girlGlow"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".24"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".7" fill="rgba(56,189,248,.12)"/></pattern>
+
+<clipPath id="cPrompt"><rect x="48" y="48" width="0" height="32"><animate attributeName="width" from="0" to="480" dur="1s" begin=".3s" fill="freeze"/></rect></clipPath>
+<clipPath id="cHi"><rect x="48" y="86" width="0" height="42"><animate attributeName="width" from="0" to="200" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="76" y="258" width="0" height="46"><animate attributeName="width" from="0" to="340" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="76" y="284" width="0" height="46"><animate attributeName="width" from="0" to="340" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
+<!-- Cycling roles: 4 roles, 24s -->
+<clipPath id="r1"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r2"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r3"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r4"><rect x="48" y="216" width="0" height="36"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+</defs>
+
+<!-- ================= BACKGROUND ================= -->
+<rect width="1280" height="740" rx="22" fill="url(#bg)"/>
+<rect width="1280" height="740" rx="22" fill="url(#dots)"/>
+<circle cx="230" cy="220" r="260" fill="url(#orbP)"><animate attributeName="r" values="260;290;260" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="520" r="300" fill="url(#orbV)"><animate attributeName="r" values="300;330;300" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="120" r="200" fill="url(#orbB)"><animate attributeName="r" values="200;225;200" dur="5.5s" repeatCount="indefinite"/></circle>
+<rect x="1" y="1" width="1278" height="738" rx="22" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
+
+<!-- rising particles -->
+<circle class="rp" cx="140" cy="620" r="1.4" fill="#38bdf8" style="animation-duration:5s"/>
+<circle class="rp" cx="420" cy="700" r="1.1" fill="#34d399" style="animation-duration:6s;animation-delay:1s"/>
+<circle class="rp" cx="620" cy="660" r="1.3" fill="#60a5fa" style="animation-duration:4.6s;animation-delay:2s"/>
+<circle class="rp" cx="1180" cy="690" r="1.2" fill="#38bdf8" style="animation-duration:5.4s;animation-delay:.6s"/>
+<circle class="rp" cx="1240" cy="360" r="1" fill="#34d399" style="animation-duration:6.4s;animation-delay:1.6s"/>
+<circle class="rp" cx="70" cy="420" r="1" fill="#22d3ee" style="animation-duration:5.8s;animation-delay:2.4s"/>
+
+<!-- sparkles -->
+<g class="tw" style="animation-delay:.4s"><path d="M470 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#7dd3fc"/></g>
+<g class="tw" style="animation-delay:1.5s"><path d="M880 120l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#34d399"/></g>
+<g class="tw" style="animation-delay:2.6s"><path d="M1245 250l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#38bdf8"/></g>
+
+<!-- ================= LEFT: CONTENT ================= -->
+<!-- Terminal prompt -->
+<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#34d399" font-weight="bold">sanjana@ai-developer</tspan><tspan fill="#64748b">:~$ </tspan><tspan fill="#e2e8f0">cat </tspan><tspan fill="#38bdf8">README.md</tspan></text>
+<rect x="440" y="56" width="8" height="16" fill="#34d399" opacity="0"><animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" begin="1.35s"/></rect>
+
+<!-- Hi, I'm -->
+<text clip-path="url(#cHi)" x="48" y="114" font-size="24" font-weight="bold" fill="#f8fafc">Hi, I'm 👋</text>
+
+<!-- Name: Sanjana -->
+<g transform="translate(48,185)" fill="url(#nameg)" filter="url(#glow)" class="title-font">
+  <text font-size="64" font-weight="900" letter-spacing="0.5">Sanjana</text>
+</g>
+<g class="hb" style="animation-delay:3s"><path d="M350 152 c-5-11-21-9-21 4 0 9 12 16 21 22 9-6 21-13 21-22 0-13-16-15-21-4z" fill="#38bdf8" opacity=".95"/></g>
+
+<!-- Cycling roles -->
+<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; AI &amp; Full Stack Developer /&gt;</text>
+<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; GenAI &amp; RL Enthusiast /&gt;</text>
+<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; MCA Student &amp; Tech Explorer /&gt;</text>
+<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#38bdf8" filter="url(#glow)">&lt; Smart Solutions Creator /&gt;</text>
+<rect x="48" y="228" width="2.5" height="16" fill="#38bdf8" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
+
+<!-- Quote box -->
+<g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">
+  <rect x="48" y="262" width="450" height="72" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="48" y="266" width="3.5" height="64" rx="1.5" fill="#38bdf8"/>
+</g>
+<text clip-path="url(#q1)" x="76" y="292" font-size="15" fill="#e2e8f0">Turning ideas into smart,</text>
+<text clip-path="url(#q2)" x="76" y="318" font-size="15"><tspan fill="#38bdf8" font-weight="bold">practical</tspan><tspan fill="#e2e8f0"> digital solutions.</tspan></text>
+<g class="tw" style="animation-delay:.9s"><path d="M470 288l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#34d399"/></g>
+
+<!-- Tech I Know -->
+<text class="ii" x="48" y="374" font-size="15" fill="#38bdf8" font-weight="bold" style="animation:fadeIn .4s ease 4.6s forwards">🧩 Tech I Know</text>
+
+<g class="pill" style="animation:fadeIn .3s ease 4.8s forwards"><rect x="48" y="388" width="84" height="26" rx="13" fill="rgba(56,189,248,.14)" stroke="#38bdf8" stroke-width="1"/><text x="90" y="405" text-anchor="middle" font-size="12" fill="#7dd3fc" font-weight="bold">Python</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 4.9s forwards"><rect x="140" y="388" width="110" height="26" rx="13" fill="rgba(251,191,36,.12)" stroke="#fbbf24" stroke-width="1"/><text x="195" y="405" text-anchor="middle" font-size="12" fill="#fde047" font-weight="bold">JavaScript</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.0s forwards"><rect x="258" y="388" width="70" height="26" rx="13" fill="rgba(52,211,153,.14)" stroke="#34d399" stroke-width="1"/><text x="293" y="405" text-anchor="middle" font-size="12" fill="#6ee7b7" font-weight="bold">HTML</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.1s forwards"><rect x="336" y="388" width="65" height="26" rx="13" fill="rgba(59,130,246,.15)" stroke="#3b82f6" stroke-width="1"/><text x="368" y="405" text-anchor="middle" font-size="12" fill="#93c5fd" font-weight="bold">CSS</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.2s forwards"><rect x="409" y="388" width="70" height="26" rx="13" fill="rgba(34,211,238,.14)" stroke="#22d3ee" stroke-width="1"/><text x="444" y="405" text-anchor="middle" font-size="12" fill="#67e8f9" font-weight="bold">React</text></g>
+
+<g class="pill" style="animation:fadeIn .3s ease 5.3s forwards"><rect x="48" y="422" width="75" height="26" rx="13" fill="rgba(16,185,129,.14)" stroke="#10b981" stroke-width="1"/><text x="85" y="439" text-anchor="middle" font-size="12" fill="#6ee7b7" font-weight="bold">FastAPI</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="131" y="422" width="80" height="26" rx="13" fill="rgba(52,211,153,.14)" stroke="#34d399" stroke-width="1"/><text x="171" y="439" text-anchor="middle" font-size="12" fill="#a7f3d0" font-weight="bold">MongoDB</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.5s forwards"><rect x="219" y="422" width="70" height="26" rx="13" fill="rgba(56,189,248,.14)" stroke="#38bdf8" stroke-width="1"/><text x="254" y="439" text-anchor="middle" font-size="12" fill="#bae6fd" font-weight="bold">MySQL</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.6s forwards"><rect x="297" y="422" width="75" height="26" rx="13" fill="rgba(59,130,246,.14)" stroke="#3b82f6" stroke-width="1"/><text x="334" y="439" text-anchor="middle" font-size="12" fill="#93c5fd" font-weight="bold">Docker</text></g>
+<g class="pill" style="animation:fadeIn .3s ease 5.7s forwards"><rect x="380" y="422" width="75" height="26" rx="13" fill="rgba(34,211,238,.14)" stroke="#22d3ee" stroke-width="1"/><text x="417" y="439" text-anchor="middle" font-size="12" fill="#a5f3fc" font-weight="bold">GenAI / RL</text></g>
+
+<!-- About Me -->
+<text class="ii" x="48" y="490" font-size="15" fill="#38bdf8" font-weight="bold" style="animation:fadeIn .4s ease 5.8s forwards">💙 About Me</text>
+<text class="ii" x="48" y="516" font-size="13.5" style="animation:fadeIn .4s ease 6.0s forwards"><tspan fill="#34d399">&gt;_ </tspan><tspan fill="#cbd5e1">I build smart, practical solutions with Python, AI agents, GenAI &amp; RL.</tspan></text>
+<text class="ii" x="48" y="540" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#fbbf24">💡 </tspan><tspan fill="#cbd5e1">MCA student passionate about learning by building real-world projects.</tspan></text>
+<text class="ii" x="48" y="564" font-size="13.5" style="animation:fadeIn .4s ease 6.4s forwards"><tspan fill="#38bdf8">🚀 </tspan><tspan fill="#cbd5e1">Exploring Computer Vision (YOLO), Reinforcement Learning &amp; Web Apps.</tspan></text>
+
+<!-- Stats card -->
+<g class="st" style="animation:fadeIn .5s ease 6.6s forwards">
+  <rect x="48" y="586" width="560" height="66" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <line x1="188" y1="598" x2="188" y2="640" class="sep"/>
+  <line x1="328" y1="598" x2="328" y2="640" class="sep"/>
+  <line x1="468" y1="598" x2="468" y2="640" class="sep"/>
+  <text x="118" y="612" text-anchor="middle" font-size="11.5" fill="#64748b">📦 Repos</text>
+  <text x="258" y="612" text-anchor="middle" font-size="11.5" fill="#64748b">💻 Commits</text>
+  <text x="398" y="612" text-anchor="middle" font-size="11.5" fill="#64748b">⭐ Stars</text>
+  <text x="538" y="612" text-anchor="middle" font-size="11.5" fill="#64748b">👥 Followers</text>
+</g>
+<text class="st" x="118" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#38bdf8" filter="url(#glow)" style="animation:fadeIn .4s ease 6.8s forwards">20+</text>
+<text class="st" x="258" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#34d399" filter="url(#glow)" style="animation:fadeIn .4s ease 6.95s forwards">500+</text>
+<text class="st" x="398" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#fbbf24" filter="url(#glow)" style="animation:fadeIn .4s ease 7.1s forwards">50+</text>
+<text class="st" x="538" y="640" text-anchor="middle" font-size="18" font-weight="bold" fill="#60a5fa" filter="url(#glow)" style="animation:fadeIn .4s ease 7.25s forwards">25+</text>
+
+<!-- ================= RIGHT: ILLUSTRATION ================= -->
+<circle cx="980" cy="400" r="270" fill="url(#girlGlow)"><animate attributeName="r" values="270;292;270" dur="5s" repeatCount="indefinite"/></circle>
+
+<g class="fl" transform="translate(730,110)">
+  <!-- Laptop workspace illustration -->
+  <rect x="30" y="240" width="380" height="230" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  <rect x="42" y="252" width="356" height="186" rx="8" fill="#0b1329"/>
+  <path d="M10 470 L430 470 C440 470 445 478 440 484 L410 500 L30 500 L0 484 C-5 478 0 470 10 470 Z" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <rect x="180" y="474" width="80" height="6" rx="3" fill="#475569"/>
+  
+  <!-- Screen code editor mockup -->
+  <rect x="52" y="262" width="336" height="20" rx="4" fill="#0f172a"/>
+  <circle cx="66" cy="272" r="4" fill="#ef4444"/>
+  <circle cx="78" cy="272" r="4" fill="#f59e0b"/>
+  <circle cx="90" cy="272" r="4" fill="#10b981"/>
+  <text x="108" y="276" font-size="10" fill="#38bdf8">sanjana_ai_agent.py — VS Code</text>
+
+  <!-- Code lines with typing animation effect -->
+  <text x="60" y="300" font-size="11" fill="#38bdf8">import <tspan fill="#fbbf24">langchain</tspan>, <tspan fill="#fbbf24">torch</tspan></text>
+  <text x="60" y="320" font-size="11" fill="#34d399">class <tspan fill="#67e8f9" font-weight="bold">GenAIAgent</tspan>:</text>
+  <text x="76" y="340" font-size="11" fill="#e2e8f0">def __init__(self):</text>
+  <text x="92" y="360" font-size="11" fill="#94a3b8">self.developer = <tspan fill="#6ee7b7">"Sanjana"</tspan></text>
+  <text x="92" y="380" font-size="11" fill="#94a3b8">self.status = <tspan fill="#6ee7b7">"Deploying AI Copilots 🚀"</tspan></text>
+  <text x="76" y="400" font-size="11" fill="#38bdf8">def run(self):</text>
+  <text x="92" y="420" font-size="11" fill="#34d399">return <tspan fill="#7dd3fc">"Model Active! ✨"</tspan></text>
+  <rect x="200" y="410" width="7" height="12" fill="#34d399" class="cur"/>
+
+  <!-- Floating Tech Orbs -->
+  <g class="fl2" style="animation-delay:0.3s">
+    <circle cx="30" cy="180" r="32" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" filter="url(#glow)"/>
+    <text x="30" y="186" text-anchor="middle" font-size="24">🐍</text>
+  </g>
+  <g class="fl2" style="animation-delay:1.2s">
+    <circle cx="410" cy="190" r="30" fill="#0f172a" stroke="#34d399" stroke-width="1.5" filter="url(#glow)"/>
+    <text x="410" y="196" text-anchor="middle" font-size="22">🤖</text>
+  </g>
+  <g class="fl2" style="animation-delay:2.1s">
+    <circle cx="210" cy="140" r="36" fill="#0f172a" stroke="#60a5fa" stroke-width="2" filter="url(#glow)"/>
+    <text x="210" y="147" text-anchor="middle" font-size="28">🧠</text>
+  </g>
+</g>
+</svg>
