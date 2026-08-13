@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./sanjana-banner.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="./sanjana-banner-light.svg?v=4">
-  <img src="./sanjana-banner.svg?v=4" alt="Sanjana — AI &amp; Full Stack Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./sanjana-banner.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="./sanjana-banner-light.svg?v=5">
+  <img src="./sanjana-banner.svg?v=5" alt="Sanjana — AI &amp; Full Stack Developer" width="100%"/>
 </picture>
 
 </div>
