@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Outfit:wght@600;800&display=swap');
 text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 .title-font{font-family:'Outfit',sans-serif}
-@keyframes settle{0%{transform:rotate(0deg) translateY(-660px)}18%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(13deg)}46%{transform:rotate(-9deg)}62%{transform:rotate(6deg)}78%{transform:rotate(-3.5deg)}92%{transform:rotate(1.5deg)}100%{transform:rotate(0deg)}}
+@keyframes settle{0%,100%{transform:rotate(0deg) translateY(0)}}
 @keyframes sway{0%,100%{transform:rotate(-3.2deg)}50%{transform:rotate(3.2deg)}}
 @keyframes cardWobble{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
 @keyframes shine{0%{transform:translateX(-340px) skewX(-18deg)}55%,100%{transform:translateX(420px) skewX(-18deg)}}
 @keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
 @keyframes heartBeat{0%,100%{transform:scale(1)}12%{transform:scale(1.25)}24%{transform:scale(1)}36%{transform:scale(1.15)}48%{transform:scale(1)}}
-.settle{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}
+.settle{transform-origin:210px 6px;animation:sway 4.2s ease-in-out infinite}
 .sway{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}
 .wob{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}
 .shine{animation:shine 4.5s ease-in-out 3.6s infinite}
