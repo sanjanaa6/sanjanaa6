@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./sanjana-banner.svg?v=5">
-  <source media="(prefers-color-scheme: light)" srcset="./sanjana-banner-light.svg?v=5">
-  <img src="./sanjana-banner.svg?v=5" alt="Sanjana — AI &amp; Full Stack Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner-light.svg">
+  <img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner.svg" alt="Sanjana — AI &amp; Full Stack Developer" width="100%"/>
 </picture>
 
 </div>
@@ -16,7 +16,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (React Bits style, pure SVG) -->
-<img src="./sanjana-lanyard.svg?v=2" alt="Sanjana ID badge" width="330"/>
+<img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-lanyard.svg" alt="Sanjana ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
@@ -47,8 +47,8 @@
 
 ### 📊 GitHub Stats &amp; Graphs
 
-<img src="./sanjana-stats.svg?v=2" alt="GitHub Stats" height="185"/>
-<img src="./sanjana-langs.svg?v=2" alt="Top Languages" height="185"/>
+<img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-stats.svg" alt="GitHub Stats" height="185"/>
+<img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-langs.svg" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
