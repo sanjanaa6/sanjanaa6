@@ -62,7 +62,7 @@
 <br/><br/>
 
 <!-- 🏆 Badges & Achievements (local SVG - 100% reliable load) -->
-<img src="./sanjana-trophies.svg?v=4" alt="Badges & Achievements" width="95%"/>
+<img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-trophies.svg" alt="Badges & Achievements" width="95%"/>
 
 <br/><br/>
 
