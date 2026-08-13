@@ -1,71 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160" role="img" aria-label="Sanjana's GitHub Badges & Achievements">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160" role="img" aria-label="Sanjana's GitHub Badges &amp; Achievements">
 <title>Sanjana's Badges &amp; Achievements</title>
-<defs><style><![CDATA[
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&display=swap');
-text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
-@keyframes popUp{0%{opacity:0;transform:translateY(10px) scale(.95)}100%{opacity:1;transform:translateY(0) scale(1)}}
-@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
-.tr{opacity:1;animation:popUp .6s ease forwards;transform-box:fill-box;transform-origin:center}
-.flt{animation:floatY 4s ease-in-out infinite}
-]]></style>
-<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%"><animate attributeName="stop-color" values="#38bdf8;#34d399;#a855f7;#38bdf8" dur="8s" repeatCount="indefinite"/></stop>
-  <stop offset="100%"><animate attributeName="stop-color" values="#a855f7;#38bdf8;#34d399;#a855f7" dur="8s" repeatCount="indefinite"/></stop>
-</linearGradient>
-<linearGradient id="cardG1" x1="0" y1="0" x2="0" y2="1">
+<defs>
+<style>
+.bg { fill: #0f172a; stroke: #38bdf8; stroke-width: 1.5; }
+.title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+.sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #94a3b8; }
+.icon-txt { font-size: 22px; }
+</style>
+<linearGradient id="cardG" x1="0" y1="0" x2="0" y2="1">
   <stop offset="0%" stop-color="#1e293b"/>
   <stop offset="100%" stop-color="#0f172a"/>
 </linearGradient>
-<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-  <feGaussianBlur stdDeviation="3" result="blur"/>
-  <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-</filter>
+<linearGradient id="borderG" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#38bdf8"/>
+  <stop offset="50%" stop-color="#34d399"/>
+  <stop offset="100%" stop-color="#a855f7"/>
+</linearGradient>
 </defs>
 
 <!-- Outer Container -->
-<rect x="1" y="1" width="798" height="158" rx="14" fill="#0f172a" stroke="url(#tg)" stroke-width="1.5"/>
+<rect x="1" y="1" width="798" height="158" rx="14" fill="#0f172a" stroke="url(#borderG)" stroke-width="1.5"/>
 
 <!-- Badge 1: MCA Scholar -->
-<g class="tr" style="animation-delay:0.1s" transform="translate(21,20)">
-  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG1)" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.6"/>
-  <g class="flt">
-    <circle cx="88" cy="40" r="23" fill="rgba(59,130,246,.15)" stroke="#60a5fa" stroke-width="1.2" filter="url(#glow)"/>
-    <text x="88" y="47" text-anchor="middle" font-size="22">🎓</text>
-  </g>
-  <text x="88" y="84" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#60a5fa">MCA Scholar</text>
-  <text x="88" y="103" text-anchor="middle" font-size="10.5" font-weight="600" fill="#94a3b8">AI &amp; Web Dev</text>
+<g transform="translate(21,20)">
+  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG)" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.7"/>
+  <circle cx="88" cy="38" r="26" fill="rgba(59,130,246,0.12)"/>
+  <circle cx="88" cy="38" r="21" fill="rgba(59,130,246,0.22)" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="88" y="45" text-anchor="middle" class="icon-txt">🎓</text>
+  <text x="88" y="83" text-anchor="middle" class="title" fill="#60a5fa">MCA Scholar</text>
+  <text x="88" y="102" text-anchor="middle" class="sub">AI &amp; Web Dev</text>
 </g>
 
 <!-- Badge 2: GenAI & LLMs -->
-<g class="tr" style="animation-delay:0.3s" transform="translate(215,20)">
-  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG1)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.6"/>
-  <g class="flt" style="animation-delay:1s">
-    <circle cx="88" cy="40" r="23" fill="rgba(168,85,247,.15)" stroke="#c084fc" stroke-width="1.2" filter="url(#glow)"/>
-    <text x="88" y="47" text-anchor="middle" font-size="22">🤖</text>
-  </g>
-  <text x="88" y="84" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#c084fc">GenAI &amp; LLMs</text>
-  <text x="88" y="103" text-anchor="middle" font-size="10.5" font-weight="600" fill="#94a3b8">Prompts &amp; Agents</text>
+<g transform="translate(215,20)">
+  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.7"/>
+  <circle cx="88" cy="38" r="26" fill="rgba(168,85,247,0.12)"/>
+  <circle cx="88" cy="38" r="21" fill="rgba(168,85,247,0.22)" stroke="#c084fc" stroke-width="1.5"/>
+  <text x="88" y="45" text-anchor="middle" class="icon-txt">🤖</text>
+  <text x="88" y="83" text-anchor="middle" class="title" fill="#c084fc">GenAI &amp; LLMs</text>
+  <text x="88" y="102" text-anchor="middle" class="sub">Prompts &amp; Agents</text>
 </g>
 
 <!-- Badge 3: Full Stack -->
-<g class="tr" style="animation-delay:0.5s" transform="translate(409,20)">
-  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG1)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6"/>
-  <g class="flt" style="animation-delay:2s">
-    <circle cx="88" cy="40" r="23" fill="rgba(16,185,129,.15)" stroke="#34d399" stroke-width="1.2" filter="url(#glow)"/>
-    <text x="88" y="47" text-anchor="middle" font-size="22">⚡</text>
-  </g>
-  <text x="88" y="84" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#34d399">Full Stack</text>
-  <text x="88" y="103" text-anchor="middle" font-size="10.5" font-weight="600" fill="#94a3b8">React &amp; Python</text>
+<g transform="translate(409,20)">
+  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.7"/>
+  <circle cx="88" cy="38" r="26" fill="rgba(16,185,129,0.12)"/>
+  <circle cx="88" cy="38" r="21" fill="rgba(16,185,129,0.22)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="88" y="45" text-anchor="middle" class="icon-txt">⚡</text>
+  <text x="88" y="83" text-anchor="middle" class="title" fill="#34d399">Full Stack</text>
+  <text x="88" y="102" text-anchor="middle" class="sub">React &amp; Python</text>
 </g>
 
 <!-- Badge 4: Code Craftsman -->
-<g class="tr" style="animation-delay:0.7s" transform="translate(603,20)">
-  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG1)" stroke="#f59e0b" stroke-width="1.2" stroke-opacity="0.6"/>
-  <g class="flt" style="animation-delay:3s">
-    <circle cx="88" cy="40" r="23" fill="rgba(245,158,11,.15)" stroke="#fbbf24" stroke-width="1.2" filter="url(#glow)"/>
-    <text x="88" y="47" text-anchor="middle" font-size="22">⭐</text>
-  </g>
-  <text x="88" y="84" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#fbbf24">Code Craftsman</text>
-  <text x="88" y="103" text-anchor="middle" font-size="10.5" font-weight="600" fill="#94a3b8">500+ Commits</text>
+<g transform="translate(603,20)">
+  <rect x="0" y="0" width="176" height="120" rx="12" fill="url(#cardG)" stroke="#f59e0b" stroke-width="1.2" stroke-opacity="0.7"/>
+  <circle cx="88" cy="38" r="26" fill="rgba(245,158,11,0.12)"/>
+  <circle cx="88" cy="38" r="21" fill="rgba(245,158,11,0.22)" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="88" y="45" text-anchor="middle" class="icon-txt">⭐</text>
+  <text x="88" y="83" text-anchor="middle" class="title" fill="#fbbf24">Code Craftsman</text>
+  <text x="88" y="102" text-anchor="middle" class="sub">500+ Commits</text>
 </g>
 </svg>
