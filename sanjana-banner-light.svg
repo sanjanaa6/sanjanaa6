@@ -20,6 +20,9 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 .hb{transform-box:fill-box;transform-origin:center;animation:heartBeat 2.2s ease-in-out infinite}
 .fl{animation:floaty 5s ease-in-out infinite}
 .fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
+@keyframes slideDownIn{0%{opacity:0;transform:translateY(-120px)}60%{opacity:1;transform:translateY(12px)}80%{transform:translateY(-4px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes slideDownLoop{0%,100%{transform:translateY(-14px)}50%{transform:translateY(14px)}}
+.slide-down-img{transform-box:fill-box;transform-origin:center;opacity:0;animation:slideDownIn 1.2s cubic-bezier(.34,1.56,.64,1) .2s forwards,slideDownLoop 6s ease-in-out 1.4s infinite}
 .sep{stroke:#e2e8f0;stroke-width:1;opacity:.8}
 ]]></style>
 
@@ -128,7 +131,7 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
   <stop offset="100%" stop-color="#2563eb" stop-opacity="0.75"/>
 </linearGradient>
 
-<g class="fl">
+<g class="slide-down-img">
   <!-- Light Frame Background -->
   <rect x="751" y="76" width="438" height="583" rx="26" fill="#ffffff" stroke="url(#imgBorderGLight)" stroke-width="2.5"/>
   
