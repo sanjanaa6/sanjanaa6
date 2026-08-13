@@ -7,7 +7,7 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes rankPulse{0%,100%{opacity:.85}50%{opacity:1}}
 @keyframes shineX{0%{transform:translateX(-160px) skewX(-15deg)}60%,100%{transform:translateX(560px) skewX(-15deg)}}
-.row{opacity:0;animation:fadeSlide .5s ease forwards}
+.row{opacity:1;animation:fadeSlide .5s ease forwards}
 .rk{animation:rankPulse 2.4s ease-in-out infinite}
 .sh{animation:shineX 4.5s ease-in-out 2.4s infinite}
 ]]></style>

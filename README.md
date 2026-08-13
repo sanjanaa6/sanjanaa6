@@ -61,8 +61,8 @@
 
 <br/><br/>
 
-<!-- 🏆 Trophies (local animated SVG - always loads) -->
-<img src="./sanjana-trophies.svg?v=2" alt="Trophies" width="95%"/>
+<!-- 🏆 Badges & Achievements (local animated SVG - always loads) -->
+<img src="./sanjana-trophies.svg?v=3" alt="Badges & Achievements" width="95%"/>
 
 <br/><br/>
 
