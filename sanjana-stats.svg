@@ -28,7 +28,7 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
   <g class="row" style="animation-delay:0.50s">
     <text x="24" y="74" font-size="14">⭐</text>
     <text x="52" y="74" font-size="13.5" fill="#c9d1d9">Total Stars Earned:</text>
-    <text x="316" y="74" text-anchor="end" font-size="14" font-weight="bold" fill="#fbbf24">50+</text>
+    <text x="316" y="74" text-anchor="end" font-size="14" font-weight="bold" fill="#fbbf24">2</text>
   </g>
   <g class="row" style="animation-delay:0.72s">
     <text x="24" y="105" font-size="14">💻</text>
@@ -43,7 +43,7 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
   <g class="row" style="animation-delay:1.16s">
     <text x="24" y="167" font-size="14">👥</text>
     <text x="52" y="167" font-size="13.5" fill="#c9d1d9">Followers:</text>
-    <text x="316" y="167" text-anchor="end" font-size="14" font-weight="bold" fill="#60a5fa">25+</text>
+    <text x="316" y="167" text-anchor="end" font-size="14" font-weight="bold" fill="#60a5fa">..</text>
   </g>
   <g class="row" style="animation-delay:1.38s">
     <text x="24" y="198" font-size="14">🧠</text>
