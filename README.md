@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner-light.svg">
-  <img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner.svg" alt="Sanjana — AI &amp; Full Stack Developer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-banner.svg?v=2" alt="Sanjana — AI &amp; Full Stack Developer" width="100%"/>
 </picture>
 
 </div>
@@ -16,7 +16,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (React Bits style, pure SVG) -->
-<img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-lanyard.svg" alt="Sanjana ID badge" width="330"/>
+<img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/main/sanjana-lanyard.svg?v=2" alt="Sanjana ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
