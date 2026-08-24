@@ -24,15 +24,13 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 .fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
 .rp{animation:rise linear infinite}
 @keyframes slideDownIn{0%,100%{transform:translateY(0)}}
-@keyframes slideDownLoop{0%,100%{transform:translateY(-8px)}50%{transform:translateY(8px)}}
-.slide-down-img{transform-box:fill-box;transform-origin:center;opacity:1;animation:slideDownLoop 6s ease-in-out infinite}
+@keyframes slideDownFromTop { 0% { transform: translateY(-160px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+.slide-down-img { transform-box: fill-box; transform-origin: center; animation: slideDownFromTop 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 .sep{stroke:#1e293b;stroke-width:1;opacity:.8}
 ]]></style>
 
 <!-- Background Cyan/Blue/Emerald Theme -->
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#0b1329"/><stop offset="55%" stop-color="#0f172a"/><stop offset="100%" stop-color="#090d16"/>
-</linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#000000"/><stop offset="50%" stop-color="#050505"/><stop offset="100%" stop-color="#000000"/></linearGradient>
 <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%"><animate attributeName="stop-color" values="#38bdf8;#34d399;#3b82f6;#38bdf8" dur="7s" repeatCount="indefinite"/></stop>
   <stop offset="55%"><animate attributeName="stop-color" values="#22d3ee;#818cf8;#34d399;#22d3ee" dur="7s" repeatCount="indefinite"/></stop>

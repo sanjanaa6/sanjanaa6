@@ -21,8 +21,8 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 .fl{animation:floaty 5s ease-in-out infinite}
 .fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
 @keyframes slideDownIn{0%,100%{transform:translateY(0)}}
-@keyframes slideDownLoop{0%,100%{transform:translateY(-8px)}50%{transform:translateY(8px)}}
-.slide-down-img{transform-box:fill-box;transform-origin:center;opacity:1;animation:slideDownLoop 6s ease-in-out infinite}
+@keyframes slideDownFromTop { 0% { transform: translateY(-160px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+.slide-down-img { transform-box: fill-box; transform-origin: center; animation: slideDownFromTop 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 .sep{stroke:#e2e8f0;stroke-width:1;opacity:.8}
 ]]></style>
 
