@@ -23,30 +23,29 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 .fl{animation:floaty 5s ease-in-out infinite}
 .fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
 .rp{animation:rise linear infinite}
-@keyframes slideDownIn{0%,100%{transform:translateY(0)}}
-@keyframes slideDownFromTop { 0% { transform: translateY(-160px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
-.slide-down-img { transform-box: fill-box; transform-origin: center; animation: slideDownFromTop 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+@keyframes slideDownSlow {
+  0% { transform: translateY(-50px); }
+  50% { transform: translateY(35px); }
+  100% { transform: translateY(-50px); }
+}
+.slide-down-img { transform-box: fill-box; transform-origin: center; animation: slideDownSlow 10s ease-in-out infinite; }
 .sep{stroke:#1e293b;stroke-width:1;opacity:.8}
 ]]></style>
 
 <!-- Background Cyan/Blue/Emerald Theme -->
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#000000"/><stop offset="50%" stop-color="#050505"/><stop offset="100%" stop-color="#000000"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#000000"/><stop offset="100%" stop-color="#000000"/></linearGradient>
 <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%"><animate attributeName="stop-color" values="#38bdf8;#34d399;#3b82f6;#38bdf8" dur="7s" repeatCount="indefinite"/></stop>
   <stop offset="55%"><animate attributeName="stop-color" values="#22d3ee;#818cf8;#34d399;#22d3ee" dur="7s" repeatCount="indefinite"/></stop>
   <stop offset="100%"><animate attributeName="stop-color" values="#3b82f6;#38bdf8;#34d399;#3b82f6" dur="7s" repeatCount="indefinite"/></stop>
 </linearGradient>
-<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#38bdf8" stop-opacity=".4"/>
-  <stop offset="50%" stop-color="#34d399" stop-opacity=".35"/>
-  <stop offset="100%" stop-color="#3b82f6" stop-opacity=".4"/>
-</linearGradient>
-<radialGradient id="orbP"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".15"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbV"><stop offset="0%" stop-color="#34d399" stop-opacity=".18"/><stop offset="100%" stop-color="#34d399" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbB"><stop offset="0%" stop-color="#3b82f6" stop-opacity=".12"/><stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
-<radialGradient id="girlGlow"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".24"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#111111" stop-opacity="0.8"/><stop offset="100%" stop-color="#111111" stop-opacity="0.8"/></linearGradient>
+<radialGradient id="orbP"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbV"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbB"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<radialGradient id="girlGlow"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
 <filter id="glow"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".7" fill="rgba(56,189,248,.12)"/></pattern>
+<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"></pattern>
 
 <clipPath id="cPrompt"><rect x="48" y="48" width="0" height="32"><animate attributeName="width" from="0" to="480" dur="1s" begin=".3s" fill="freeze"/></rect></clipPath>
 <clipPath id="cHi"><rect x="48" y="86" width="0" height="42"><animate attributeName="width" from="0" to="200" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
@@ -103,7 +102,7 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 
 <!-- Quote box -->
 <g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">
-  <rect x="48" y="262" width="450" height="72" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="48" y="262" width="450" height="72" rx="8" fill="#000000" stroke="#1e293b" stroke-width="1"/>
   <rect x="48" y="266" width="3.5" height="64" rx="1.5" fill="#38bdf8"/>
 </g>
 <text clip-path="url(#q1)" x="76" y="292" font-size="15" fill="#e2e8f0">Turning ideas into smart,</text>
@@ -133,7 +132,7 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 
 <!-- Stats card -->
 <g class="st" style="animation:fadeIn .5s ease 6.6s forwards">
-  <rect x="48" y="586" width="560" height="66" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <rect x="48" y="586" width="560" height="66" rx="12" fill="#000000" stroke="#1e293b" stroke-width="1"/>
   <line x1="188" y1="598" x2="188" y2="640" class="sep"/>
   <line x1="328" y1="598" x2="328" y2="640" class="sep"/>
   <line x1="468" y1="598" x2="468" y2="640" class="sep"/>

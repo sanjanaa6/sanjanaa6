@@ -20,28 +20,25 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 .hb{transform-box:fill-box;transform-origin:center;animation:heartBeat 2.2s ease-in-out infinite}
 .fl{animation:floaty 5s ease-in-out infinite}
 .fl2{transform-box:fill-box;transform-origin:center;animation:floaty2 4.2s ease-in-out infinite}
-@keyframes slideDownIn{0%,100%{transform:translateY(0)}}
-@keyframes slideDownFromTop { 0% { transform: translateY(-160px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
-.slide-down-img { transform-box: fill-box; transform-origin: center; animation: slideDownFromTop 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+@keyframes slideDownSlow {
+  0% { transform: translateY(-50px); }
+  50% { transform: translateY(35px); }
+  100% { transform: translateY(-50px); }
+}
+.slide-down-img { transform-box: fill-box; transform-origin: center; animation: slideDownSlow 10s ease-in-out infinite; }
 .sep{stroke:#e2e8f0;stroke-width:1;opacity:.8}
 ]]></style>
 
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#f1f5f9"/>
-</linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#000000"/><stop offset="100%" stop-color="#000000"/></linearGradient>
 <linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%"><animate attributeName="stop-color" values="#0284c7;#059669;#2563eb;#0284c7" dur="7s" repeatCount="indefinite"/></stop>
   <stop offset="55%"><animate attributeName="stop-color" values="#0d9488;#2563eb;#0284c7;#0d9488" dur="7s" repeatCount="indefinite"/></stop>
   <stop offset="100%"><animate attributeName="stop-color" values="#2563eb;#0284c7;#059669;#2563eb" dur="7s" repeatCount="indefinite"/></stop>
 </linearGradient>
-<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#38bdf8" stop-opacity=".4"/>
-  <stop offset="50%" stop-color="#34d399" stop-opacity=".4"/>
-  <stop offset="100%" stop-color="#60a5fa" stop-opacity=".4"/>
-</linearGradient>
-<radialGradient id="orbP"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".15"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
-<radialGradient id="orbV"><stop offset="0%" stop-color="#34d399" stop-opacity=".18"/><stop offset="100%" stop-color="#34d399" stop-opacity="0"/></radialGradient>
-<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r=".7" fill="rgba(2,132,199,.12)"/></pattern>
+<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#111111" stop-opacity="0.8"/><stop offset="100%" stop-color="#111111" stop-opacity="0.8"/></linearGradient>
+<radialGradient id="orbP"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbV"><stop offset="0%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"></pattern>
 
 <clipPath id="cPrompt"><rect x="48" y="48" width="0" height="32"><animate attributeName="width" from="0" to="480" dur="1s" begin=".3s" fill="freeze"/></rect></clipPath>
 <clipPath id="cHi"><rect x="48" y="86" width="0" height="42"><animate attributeName="width" from="0" to="200" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
@@ -63,10 +60,10 @@ text{font-family:'Fira Code','Consolas','Liberation Mono',monospace}
 
 <!-- ================= LEFT: CONTENT ================= -->
 <!-- Terminal prompt -->
-<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#059669" font-weight="bold">sanjana@ai-developer</tspan><tspan fill="#64748b">:~$ </tspan><tspan fill="#0f172a">cat </tspan><tspan fill="#0284c7">README.md</tspan></text>
+<text clip-path="url(#cPrompt)" x="48" y="69" font-size="14"><tspan fill="#059669" font-weight="bold">sanjana@ai-developer</tspan><tspan fill="#64748b">:~$ </tspan><tspan fill="#000000">cat </tspan><tspan fill="#0284c7">README.md</tspan></text>
 
 <!-- Hi, I'm -->
-<text clip-path="url(#cHi)" x="48" y="114" font-size="24" font-weight="bold" fill="#0f172a">Hi, I'm 👋</text>
+<text clip-path="url(#cHi)" x="48" y="114" font-size="24" font-weight="bold" fill="#000000">Hi, I'm 👋</text>
 
 <!-- Name: Sanjana -->
 <g transform="translate(48,185)" fill="url(#nameg)" class="title-font">
