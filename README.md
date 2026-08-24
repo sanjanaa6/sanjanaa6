@@ -66,11 +66,11 @@
 
 <br/><br/>
 
-### 🐍 Watch the snake eat my contributions
+<!-- ### 🐍 Watch the snake eat my contributions
 
 <img src="https://raw.githubusercontent.com/sanjanaa6/sanjanaa6/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
 
-<br/><br/>
+<br/><br/> -->
 
 ### 💬 Let's Connect
 
